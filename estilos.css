@@ -478,7 +478,12 @@ textarea {
   
    @media (max-width: 800px) {
 
-   
+    .contenedor {
+        max-width: 1280px;
+        width: 86%;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
 
     .menu-icon {
 
@@ -546,11 +551,17 @@ textarea {
 
     #contratarnos .texto {
         width: 98%;
-        text-align: center;
+        text-align: justify;
     }
 
     .contenedor-servicios {
         flex-direction: column;
+        width: 110%;
+    }
+
+    .dos {
+        flex-direction: column;
+        width: 90%;
     }
 
     #servicios .servicio {
@@ -598,7 +609,7 @@ textarea {
     }
 
     footer img {
-        margin: 24px;
+        margin: 16px;
     }
 
     footer .banderas {
@@ -608,6 +619,7 @@ textarea {
         height: 100px;
         width: 100px;
         padding-bottom: 40px;
+       
     }
 
     .lista-menu li a {
@@ -648,8 +660,18 @@ textarea {
 
     
 
+    footer .banderas {
+        
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+        width: 70px;
+        padding-bottom: 40px;
+       
+    }
+
     header h1 {
-        font-size: 35px;
+        font-size: 32px;
         margin-bottom: 25px;
         padding-bottom: 113px;
         text-shadow: 1px 1px 2px black; 
@@ -696,7 +718,7 @@ textarea {
 
     .contenedor-publicaciones {
 
-        width: 70%;
+        width: 80%;
         margin: auto;
     }
 
