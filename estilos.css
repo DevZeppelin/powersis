@@ -1,0 +1,706 @@
+
+
+body{
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+    
+    font-size: 20px;
+    
+}
+
+
+
+.logo img {
+    width: 220px;
+    height: 40px;
+}
+
+main {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 11, 41);
+}
+
+header .contenedor{
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.menu {
+    
+    background: transparent;
+    position: relative;
+    height: 90px;
+    z-index: 100;
+    text-shadow: 1px 1px 2px black; 
+}
+
+.lista-menu img {
+    width: 40px;
+    height: 30px;
+    
+}
+
+.lista-menu a {
+    color: #fff;
+    font-size: 16px;
+
+       
+}
+
+header ul {
+    display: flex;
+    color: white;
+    text-decoration: solid;  
+}
+
+
+
+header ul li {
+    list-style: none;
+    margin: 15px;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+#contenedor-titulo-flex{
+display: flex;
+    justify-content: center;
+
+        margin: 8vh 0;
+        max-width: 1500px;
+        width: 100%;
+}
+
+
+
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    color: #ffffff;
+    text-align: right;
+    padding-right: 30px;
+    margin: 0px;
+    
+    margin-top: 32px;
+    
+    
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    text-align: right;
+    padding-left: 45%;
+    
+    padding-right: 30px;
+    
+    margin-top: 20px;
+    
+    
+    
+}
+
+.contenedor-titulo {
+    text-align: center;
+}
+
+
+/*-------------------BOTONES---------------------*/
+
+#contratarnos a, #contacto input[type="submit"] {
+
+    font-size: 14px;
+    color: #fff;
+    background: #061b42;
+    padding: 14px 24px;
+    text-align: center;
+    width: 128px;
+    border-radius: 6px;
+    display: inline-block;
+   
+}
+
+
+/*.........................SECCION DE "CONTRATARNOS"..................*/
+
+h3 {
+
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 55px;
+   
+}
+
+
+#contratarnos .somospowersis{
+    font-family: 'Raleway', sans-serif;
+    }
+
+#contratarnos .contenedor-contratarnos {
+
+    display: flex;   
+    
+    justify-content: space-between ; 
+    padding: 10px 10px 10px 10px;
+    
+}
+
+#contratarnos .texto {
+    
+    width: 55%;
+    text-align: justify;
+    padding: 25px 25px;
+}
+
+#contratarnos img {
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+
+/*.........................SECCION DE "SERVICIOS"..................*/
+
+
+
+
+.contenedor-servicios {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+}
+
+.contenedor-servicios .dos {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+    padding-top: 40px;
+
+}
+
+.servicio {
+
+    width: 28%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+    
+}
+
+#servicios h4 {
+
+    font-size: 22px;
+    text-align: center;
+    margin: 0; 
+    padding: 20px;
+    margin-top: 95px;
+}
+
+#servicios h6 {
+
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 35px;
+   
+}
+
+.servicio p {
+
+    font-size: 18px;    
+
+}
+
+.contenedor-servicios .celeste {
+
+    background: linear-gradient(to top, rgb(255, 255, 255), rgb(117, 200, 255));
+    box-shadow: 0 12px 20px 0 rgb(28, 74, 133);
+}
+
+
+
+.imagen-mini {
+   
+    position: absolute;
+    float: initial;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0 ;
+    
+
+}
+
+
+.servicio:hover {
+    
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px 10px rgb(20, 24, 48);
+
+}
+
+
+
+
+input {
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(54, 54, 54);
+}
+
+textarea {
+    background-color: rgb(255, 255, 255);
+    color: rgb(54, 54, 54);
+
+}
+
+
+
+   /*.........................FOOTER..................*/
+
+
+
+   footer img {
+    margin: 5px 20px 5px;
+    transform: rotate(0);
+    transition: 0.4s;
+    
+
+   }
+
+   footer img:hover {
+    transform: rotate(360deg);
+    transition: 0.4s;
+
+   }
+
+   footer .parrafo {
+       color: rgb(0, 0, 0);
+       font-size: 16px;
+       margin-top: 10px;
+       
+       text-align: left;
+        padding-left: 10px;
+   }
+
+   footer .parrafo-footer {
+       font-size: 16px;
+       color: rgb(255, 255, 255);
+       text-align: left;
+        padding-left: 10px;
+   }
+
+   .banderas img {
+       
+    
+       width: 70px;
+       height: 70px;
+       padding-bottom: 20px;
+       padding-top: 15px;
+
+    }
+
+   /*...................................SECCION CONTACTO.....................................*/
+
+
+#contacto .contenedor {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+}
+
+.contenedor-escribinos h4 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px black; 
+
+}
+
+.contenedor-escribinos h5 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px black; 
+    font-weight: normal ;
+}
+
+
+
+.contenedor-contactanos h4 {
+    text-align: center;
+    color: rgb(2, 2, 2);
+    text-shadow: 2px 2px 2px rgb(177, 177, 177);
+    }
+
+
+#contacto .contenedor-contactanos {
+    width: 50%;
+    background: linear-gradient(to top, rgb(63, 185, 185), rgb(196, 195, 195));
+    padding-bottom: 30px;
+    
+}
+
+#contacto .contenedor-escribinos {
+    width: 50%;
+    background: linear-gradient(to top, rgb(19, 96, 168), rgb(41, 43, 49));
+    padding-bottom: 30px;
+    
+}
+
+
+.contacto-info {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+ .contenedor-escribinos form {
+
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 77%;
+    margin: auto;
+ }
+
+ input[type="text"], input[type="email"] {
+     width: 49%;
+     margin-bottom: 15px;
+     padding: 18px 0;
+     border: 0;
+     border-bottom: 2px solid #5cb8ff;
+     font-size: 17px;
+ } 
+
+ textarea {
+     padding: 18px;
+     border: 0;
+     border-bottom: 2px solid #5cb8ff;
+     font-size: 17px;
+     margin-bottom: 40px;
+     width: 90%;
+     height: 180px;
+ }
+
+
+ #contacto input[type="submit"] {
+     width: 166px;
+     margin: auto;
+
+ }
+
+  .contacto-info {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+
+  }
+
+  .contacto-info img {
+    width: 28px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+
+
+
+   /*.....................WHATSAPP.............................*/
+
+   #whatsapp {
+
+    position: fixed;
+    top: 80%;
+    right: 1%;
+    z-index: 200;
+   }
+
+   #whatsapp img {
+
+    width: 75px;
+    height: 90px;
+}
+
+
+   /*..............estilo html................*/
+
+   html {
+     
+       scroll-behavior: smooth;
+   }
+
+   
+   #contratarnos, #servicios, #blog {
+
+    padding: 70px 0;
+   }
+
+
+   /*.............................IMPORTANTISIMA PARTE DEL RESPONSIVE DESIGN..........................*/
+
+   
+   
+   
+   .menu-icon {
+     
+    display: none;
+
+   }
+
+ 
+  
+  
+   @media (max-width: 800px) {
+
+   
+
+    .menu-icon {
+
+        display: block;
+        float: right;
+        width: 40x;
+        height: 40px;
+        padding: 20px 20px;
+    }
+   
+    header nav {
+        position: absolute;
+        top: 83px;
+        left: 0;
+        height: 320px;
+        background: rgb(20, 24, 48);
+        width: 100%;
+        display: none;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+
+        margin-bottom: 15px;
+    }
+
+    header h1 {
+            font-size: 51px;
+            margin-bottom: 25px;
+            padding-bottom: 75px;
+            text-shadow: 1px 1px 2px black; 
+    }
+    
+
+    h2 {
+        font-size: 24px;
+        color: white;
+    }
+
+    h3 {
+        font-size: 45px;
+    }
+
+    .contenedor-titulo {
+        margin: -6vh 0;        
+    }
+
+    .contenedor-titulo h2 {
+        font-size: 30px;
+    }
+
+    #contratarnos .contenedor-contratarnos {
+        
+        flex-direction: column;
+        
+    }
+
+    #contratarnos img {
+        width: 100%;
+        height: 250px;
+    }
+
+    #contratarnos .texto {
+        width: 98%;
+        text-align: center;
+    }
+
+    .contenedor-servicios {
+        flex-direction: column;
+    }
+
+    #servicios .servicio {
+
+        width: 81%;
+        padding-bottom: 60px;
+    }
+
+    #servicios .imagen-mini {
+        width: 100%;
+    }
+
+    #servicios .icono {
+        margin-top: 20px;
+    }
+
+    .servicio p {
+        
+        margin-top: 32px;
+    }
+
+  
+    .item ul {
+        padding: 0;
+    }
+
+    #blog .contenedor-publicaciones {
+        flex-direction: column;
+
+    }
+
+    #blog .publicacion {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #contacto form {
+        flex-direction: column;
+        width: 86%;
+    }
+
+    input[type="text"], input[type="email"] {
+        width: 84%;
+        
+    }
+
+    footer img {
+        margin: 24px;
+    }
+
+    footer .banderas {
+        
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        width: 100px;
+        padding-bottom: 40px;
+    }
+
+    .lista-menu li a {
+        color: white;
+    }
+
+    .contacto-info {
+        flex-direction: column;
+    }
+
+    #whatsapp img {
+
+        width: 60px;
+        height: 70px;
+    }
+
+    #contacto .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;             
+        
+    }
+
+    #contacto .contenedor-contactanos {
+        width: 100%;
+        
+       
+    }
+
+    
+
+    #contacto .contenedor-escribinos {
+        width: 100%;
+       
+    }
+
+@media (max-width: 330px) {
+
+    
+
+    header h1 {
+        font-size: 35px;
+        margin-bottom: 25px;
+        padding-bottom: 113px;
+        text-shadow: 1px 1px 2px black; 
+    }
+
+    .contenedor-titulo h2 {
+
+        font-size: 25px;
+    }
+
+    #whatsapp img {
+
+        width: 50px;
+        height: 60px;
+    }
+
+    #contratarnos img {
+
+        height: 250px;
+    }
+
+
+
+
+}
+  
+@media (min-width: 600px) and (max-width: 800px) {
+
+    header {
+        height: 70vh;
+    }
+
+    header h1 {
+        margin-bottom: 213px;
+        font-size: 90px;
+    }
+
+    .contenedor-servicios {
+
+        width: 500px;
+     
+        margin: auto;
+    }
+
+    .contenedor-publicaciones {
+
+        width: 70%;
+        margin: auto;
+    }
+
+
+
+  }
+}

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<!--Documento tipo HTML-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Esta es la codificación. Si la pag fuera en alemán o árabe sería otra codificación.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GinoWeb</title>
+   
+    <link rel="stylesheet" href="estilos.css">
+     <!--rel es la relación. stylesheet significa hoja de estilo, esa es su relación. y donde está? en href-->
+
+     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+     <!--la fuente la descargo de google font. ahi me da los codigos para pegar en el html y en el css-->
+     <link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji&display=swap" rel="stylesheet">
+
+     <!--recordar cambiar la ubicacion owlcarousel por owl-->
+     <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="menu">
+            <div class="contenedor">
+                <p class="logo">Gino Pietrobon</p>
+                <nav>
+                    <ul class="lista-menu">
+                        <li><a href="">Sobre mí</a></li>
+                        <li><a href="">Mis trabajos</a></li>
+                        <li><a href="">¿Por qué contratarme?</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="contenedor" id="contenedor-titulo-flex">
+            <div class="contenedor-titulo">
+                <h1>Gino Pietrobon</h1>
+                <h2>  Desarrollador Web</h2>
+                <a href="">VER MIS TRABAJOS</a>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <section id="contratarnos">
+            <div class="contenedor">
+                <h3>Sobre mi</h3>
+                <div class="contenedor-contratarnos">
+                    <div class="computadoras">
+                        <img src="imagenes/computadoras.png" width="400px" height="400px">
+                    </div>
+                    <div class="texto">
+                        <p>Mi nombre es Gino Pietrobon y soy argentino. Vivo en Villaseca, Maipú, un lugar de Mendoza lleno de viñas y bodegas, en donde reina la paz y la naturaleza.</p>
+                        <p>Actualmente me encuentro estudiando rigurosamente varias ramas de la programación para poder llegar a cumplir mi sueño de poder desarrollar sistemas e implementar buenas ideas en aplicaciones o páginas web.</p>
+                        <p>Me gusta la literatura y conocer la historia, y los por qué de la geopolítica contemporánea. Siempre me encuentro aprendiendo cosas nuevas, y deseo poder aplicar estos conocimientos en aplicaciones que aporten a la formación de un país y un mundo mejor. Creo que la tecnología en conjunto con el conocimiento y el interés personal por aprender, son grander armas capaces de revolucionar una sociedad. </p>
+
+                        <a href="" >VER MIS TRABAJOS</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <br/><br/><br/>
+
+        <section id="servicios">
+            <div class="contenedor">
+            <h3>Servicios</h3>
+            <div class="contenedor-servicios">
+                <div class="servicio celeste">
+                    <h4>Diseño Web</h4>
+                    <p>Páginas web atractivas, modernas y funcionales con el objetivo de satisfacer tus expectativas. La importancia de un buen diseño es fundamental para tener éxito y atraer visitantes a tu web</p>
+                    <img class="icono" src="imagenes/icon.png">
+                    
+                </div>
+                <div class="servicio celeste">
+                    <h4>Programación personalizada</h4>
+                    <p>Agrega a tu sitio las funciones e ideas que se te ocurran, para que este no sea solo un diseño bonito, sino que también realice las tareas y funciones que tú desees</p>
+                    <img class="icono" src="imagenes/icon-seo.png">
+                    
+                </div>
+                <div class="servicio celeste">
+                    <h4>Responsive Design</h4>
+                    <p>Hoy en día las páginas web se ven en multitud de dispositivos como tablets, celulares, libros electrónicos, notebooks, PCs, etc. La tecnología móvil es el presente y el futuro. Para eso es importante y me aseguro de que tu sitio web sea compatible con todos los tamaños de pantalla de esta época moderna</p>
+                    <img class="icono" src="imagenes/icon-mobile.png">
+                    
+                </div>
+                <div class="servicio celeste">
+                    <h4>Autoadministrable</h4>
+                    <p>Es importante que puedas administrar tu página web vos mismo, desde cualquier lugar y en cualquier momento. Desarrollo sistemas de gestión de contenido que te permiten ver los datos de tu página web y editar el contenido que quieras, lo que te permite mantenerte actualizado</p>
+                    <img class="icono" src="imagenes/icon-cms.png">
+                    
+                </div>
+                <div class="servicio celeste">
+                    <h4>Mantenimiento</h4>
+                    <p>Podés contactarme si necesitas actualizar tu página web, agregar nuevas secciones o cualquier cambio que necesites. Esto es perfecto para los sitios web de pequeñas empresas, donde no se necesita un diseñador de páginas web a tiempo completo, sino solo en distintas ocasiones</p>
+                    <img class="icono" src="imagenes/icon-mante.png">
+                    
+                </div>
+                <div class="servicio celeste">
+                    <h4>Marketing Digital</h4>
+                    <p>PUtilizo las herramientas mas importantes como Google Adwords y Google Analytics, para que tu negocio aparezca en los resultados de búsqueda de Google justo cuando alguien te necesita y analizar como los usuarios interactúan con tu página web</p>
+                    <img class="icono" src="imagenes/marketing.png">
+                    
+                </div>
+
+            </div>
+        </div>
+
+        </section>
+
+        <br/><br/><br/>
+
+        <section id="mis-trabajos">
+
+            <!--Para usar OWL Carousel
+            descargamos owl carousel de su pagina
+            extraemos
+            creo una carpeta que sae llame owl
+            de la carpeta dist: copio owl.carousel.js
+            de la carpeta dist/assets: copio owl.theme.default.min.js
+            y el archivo owl.carousel.min.js
+            con estos 3 archivos en la carpeta owl
+            copio los dos link que me da la paginma en el ppio del index.html
+
+            <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+            <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+            pero le cambio la carpeta owlcarousel por la carpeta q creamos: owl (xq sino no va a reconocer los archivos)
+            despues incluimos el js
+            antes de que cierre el body
+
+            <script src="owlcarousel/owl.carousel.min.js"></script>
+
+            despues voy a jQuery CDN. lo hago desde la nube para no bajarlo
+            en jquery 3x > minified > copio todo el codigo
+                
+            Code integration:
+            <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+            luego en la pag de owl carousel vamos a demos (vamos a usar el basico)
+            y en la parte setup nos dice el script que tenemos que popner
+
+                                $('.owl-carousel').owlCarousel({
+                        loop:true,
+                        margin:10,
+                        nav:true,
+                        responsive:{
+                            0:{
+                                items:1
+                            },
+                            600:{
+                                items:3
+                            },
+                            1000:{
+                                items:5
+                            }
+                        }
+                    })
+
+            y tambien nos sale lo que tenemos que poner en html:
+
+                    <div class="owl-carousel owl-theme">
+                            <div class="item"><h4>1</h4></div>
+                            <div class="item"><h4>2</h4></div>
+                            <div class="item"><h4>3</h4></div>
+                            <div class="item"><h4>4</h4></div>
+                            <div class="item"><h4>5</h4></div>
+                            <div class="item"><h4>6</h4></div>
+                            <div class="item"><h4>7</h4></div>
+                            <div class="item"><h4>8</h4></div>
+                            <div class="item"><h4>9</h4></div>
+                            <div class="item"><h4>10</h4></div>
+                            <div class="item"><h4>11</h4></div>
+                            <div class="item"><h4>12</h4></div>
+                        </div>
+
+            en la pag de owl > en docs > en API > options > en dots "Show dots navegation" > esta en true. lo pongo en false
+            en el script le pongo dots: false
+
+            para agrandar las flechitas > inspecciono el elemento > con la flechita mas + me selecciona su clase > ahi le escribo font-size: 40px !important (este !important lo que hace es decirle al prog que si ya tenia un font-size, que no mire a ese, q mire a este q es mas importante )
+
+            con el inspector seleccione y probe cambiando los font-size de las flechitas
+            ahi tambien seleccione el span y le cambie el color. esos estilos que probe con la tecla + del inspector los copie y los pegue en la hoja de estilos css.
+
+            para mostrar menos imagenes, en el script, en el responsive, para escritotio (1000) cambio 5 por 4
+        
+        -->
+            <div class="contenedor">
+                <h3>Mis Trabajos</h3>
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><img src="imagenes/ejemplos trabajos/ej01.jpg"><p>Mummis</p></div>
+                    <div class="item"><img src="imagenes/ejemplos trabajos/ej02.jpg"><p>Edificios Page</p></div>
+                    <div class="item"><img src="imagenes/ejemplos trabajos/ej03.jpg"><p>Alimentar</p></div>
+                    <div class="item"><img src="imagenes/ejemplos trabajos/ej04.jpg"><p>Baby Wild</p></div>
+                    <div class="item"><img src="imagenes/ejemplos trabajos/ej05.jpg"><p>Sussy</p></div>
+                    <div class="item"><img src="imagenes/ejemplos trabajos/ej06.jpg"><p>#ISIP</p></div>
+                    <div class="item"><img src="imagenes/ejemplos trabajos/ej07.png"><p>Patagonia flights</p></div>
+                    <div class="item"><img src="imagenes/ejemplos trabajos/ej08.png"><p>Patagonia Two</p></div>
+                    
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <!--hay una pagina que se llama dimmy club dnd subis una imagen y autom te crea un mockup en muchos dispositivos-->
+
+        <section id="por-que-trabajar">
+
+            <div class="contenedor">
+                <h3>¿Por que trabajar conmigo?</h3>
+                <div class="contenedor-trabajar">
+
+                    <div class="item">
+                        <ul>
+                            <li><img src="imagenes/velocidad.png"></li>
+                            <li>Velocidad</li>
+                            <li>Me aseguro de que tu web cargue entre 2 y 4 segundos (depende de la cantidad de contenido del sitio). Si una web tarda más de 5 segundos en cargar, el 70% de los usuarios lo cierra y no vuelve a entrar más</li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <ul>
+                            <li><img src="imagenes/mantenimiento.png"></li>
+                            <li>Asesoramiento</li>
+                            <li>Mantengo una comunicación constante con mi cliente, para enseñarle a modificar contenido mediante el panel de Wordpress o para cualquier duda/cambio que quiera hacer en su sitio web</li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <ul>
+                            <li><img src="imagenes/mobile-icon.png"></li>
+                            <li>Mobile Priority</li>
+                            <li>Cada vez mas personas navegan desde sus celulares en cualquier parte del mundo. Me aseguro de que tu web esté optimizada para cualquier tipo de dispositivo móvil</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            
+
+
+        </section>
+
+        <section id="blog">
+            <div class="contenedor">
+                <h3>Blog</h3>
+                <div class="contenedor-publicaciones">
+
+                    <div class="publicacion">
+                        <div class="contenido">
+                         <img src="imagenes/blog1.jpg">
+                         <h4>La importancia de tener un blog</h4>
+                         <p>¿Querés aprender cuales son las herramientas que usan las mejores marcas para generar tráfico?</p>
+                         <a>Leer más →</a>
+                        </div> 
+                    </div>
+
+                    <div class="publicacion">
+                        <div class="contenido">
+                        <img src="imagenes/blog2.jpg">
+                        <h4>¿Qué es el remarketing y como utilizarlo?</h4>
+                        <p>El remarketing es una de las técnicas mas utlizadas por las mejores companías! ¿Querés saber de que se trata?</p>
+                        <a>Leer más →</a>
+                        </div>
+                   </div>
+
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="que-esperas">
+            <div class="contenedor">
+                <h4>¿Que esperás para tener tu página web?</h4>
+                <a href="">CHARLEMOS</a>
+            </div>
+
+
+        </section>
+        
+        <section id="contacto">
+
+            <!--Codigo php para el envio del mail-->
+
+            <?php
+                if(@$_GET['i']=='ok'){ 
+                    //quiere decir qe el form se envio correctamente
+                    ?>
+                    <h3>La consulta se envio correctamente. Nos contactaremos a la brevedad.</h3>
+
+                    <?php
+                    } else {
+                    ?> 
+
+
+            <div class="contenedor">
+                <h3>Contacto</h3>
+
+                <!--en method el post es para enviar los archivos de una manera oculta, en cambio el post envia los datos mediante la url, por eso siempre se usa post. 
+                    el enctype es para cuando debemos enviar archivos adjuntos. es una buena practica ponerlo
+                -->
+                    <form action="envio-formulario.php" method="post" enctype="multipart/form-data">
+                        <!--el tipo puede ser ej text o email. el name es como lo vamos a llamar en el php-->
+                        <input type="text" placeholder="Nombre" name="nombre" required>
+                        <input type="email" placeholder="Email" name="email" required>
+                        <!--el text area a diferencia del input si tiene etiqueta de ceirre-->
+                        <textarea placeholder="Mensaje" name="mensaje" required></textarea>
+                        <!--submit es cndo se envia el formulario-->
+                        <input type="submit" value="ENVIAR MENSAJE">
+
+
+
+                    </form>
+
+                   <?php  }  ?> 
+
+            </div>
+
+        </section>
+
+    </main>
+    
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+    <script src="owl/owl.carousel.min.js"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    responsive:{
+        //aqui en 0 es para celus. en 600 para tabs. y el 1000 para pc. aqui elijo cntos elementos me mostrara
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+    </script>
+
+</body>
+</html>
