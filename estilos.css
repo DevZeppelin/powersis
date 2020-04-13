@@ -905,3 +905,27 @@ textarea {
 
   }
 }
+
+/*-----------------------------QUIENES SOMOS--------------------*/
+
+.menu-somos {
+
+   position: fixed;
+   width: 100%;
+   top: 0;
+   background: rgb(20, 24, 48);
+   z-index: 100;
+}
+
+.menu-somos a {
+    color :#fff;
+}
+
+#somos {
+    padding: 100px 20px;
+    text-align: justify;
+}
+
+
+
+
