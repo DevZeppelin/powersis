@@ -27,7 +27,7 @@
 .slide {
     display: flex;
     transform: translate3d(0, 0, 0);
-    animation-duration: 26s;
+    animation-duration: 15s;
     animation-name: autoplay;
     
     animation-direction: alternate;
@@ -36,7 +36,7 @@
     
     transition: all 1200ms;
     animation-timing-function: cubic-bezier(1,0,0,1);
-        animation-delay: 0s;
+    animation-delay: 0s;
    
     
 }
@@ -135,7 +135,7 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"] {
 /*vamos a crear el keyframe autoplay*/
 
 @keyframes autoplay {
-    33%{
+    9%{
         transform: translate3d(calc(-100% * 0), 0, 0); 
        
         
@@ -143,7 +143,7 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"] {
 
     
 
-    66%{
+    45%{
      
         transform: translate3d(calc(-100% * 1), 0, 0);
         
@@ -295,7 +295,7 @@ h2 {
 
 /*-------------------BOTONES---------------------*/
 
-#contratarnos a, #contacto input[type="submit"] {
+#contratarnos a, #contacto input[type="submit"], #que-esperas a {
 
     font-size: 14px;
     color: #fff;
@@ -317,6 +317,7 @@ h3 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 55px;
+    padding-top: 55px;
    
 }
 
@@ -397,7 +398,7 @@ h3 {
     text-align: center;
     margin: 0; 
     padding: 20px;
-    margin-top: 95px;
+    margin-top: 135px;
 }
 
 #servicios h6 {
@@ -457,7 +458,24 @@ textarea {
     color: rgb(54, 54, 54);
 
 }
+/*...............................SECCION QUE ESPERAS....................................*/
 
+#que-esperas{
+    background: linear-gradient(rgb(69, 128, 255), rgb(16, 79, 206));
+    text-align: center;
+    /*aqui le pongo 50px de espacio arriba y abajo. 0 a los costados*/
+    padding: 50px 0;
+    margin-top: 40px;
+    
+    }
+
+    
+#que-esperas h4{
+    font-weight: lighter;
+    font-size: 20px;
+    color: #fff;
+    /*para darle estilo al boton vuelvo al que configure mas arriba e incluyo este nuevo ;)*/
+}
 
 
    /*.........................FOOTER..................*/
@@ -704,7 +722,8 @@ textarea {
         float: right;
         width: 40x;
         height: 40px;
-        padding: 20px 20px;
+        padding: 20px 0px;
+        
     }
    
     header nav {
@@ -765,6 +784,7 @@ textarea {
     #contratarnos .texto {
         width: 98%;
         text-align: justify;
+        padding-right: 20px;
     }
 
     .contenedor-servicios {
