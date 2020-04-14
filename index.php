@@ -238,8 +238,7 @@
         
             
 
-            <!--Codigo php para el envio del mail
-
+           
             <?php
                 if(@$_GET['i']=='ok'){ 
                     //quiere decir qe el form se envio correctamente
@@ -248,7 +247,7 @@
 
                     <?php
                     } else {
-                    ?> -->
+                    ?>
 
 
             <div class="contenedor-escribinos">
@@ -268,7 +267,8 @@
 
                     </form>
 
-                    <!-- <?php  }  ?>  -->
+                    <?php  }  ?> 
+                    
                  </div>
 
        
