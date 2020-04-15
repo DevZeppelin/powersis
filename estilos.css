@@ -398,7 +398,7 @@ h3 {
     text-align: center;
     margin: 0; 
     padding: 20px;
-    margin-top: 135px;
+    margin-top: 120px;
 }
 
 #servicios h6 {
@@ -625,6 +625,10 @@ textarea {
 
   }
 
+  .contacto-info a {
+      color: darkblue;
+  }
+
   .contacto-info img {
     width: 28px;
     vertical-align: middle;
@@ -677,7 +681,7 @@ textarea {
    }
 
  
-  
+ 
   
    @media (max-width: 800px) {
 
@@ -981,5 +985,12 @@ textarea {
 }
 
 
+@media (min-width: 1600px) and (max-width: 4000px) {
+   
+        .imagen-mini{
+         height: 100px;
+        }
+       
 
+}
 

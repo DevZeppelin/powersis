@@ -4,9 +4,9 @@ $email_usuario=$_POST['email'];
 $consulta_usuario=$_POST['mensaje'];
 // Creo 3 variables que me toman lo que se envía por POST de cada valor del formulario
 
-$destino="gino.b.pietrobon@gmail.com";
+$destino="info@powersis.com.ar";
 
-$asunto="Consulta enviada desde www.jonathanlifschitz.com.ar";
+$asunto="Consulta enviada desde www.powersis.com.ar";
 
 
 //el punto concatena. r y n hace el salto de linea
@@ -14,7 +14,7 @@ $mensaje="Tu Nombre es: ".$nombre_usuario."\r\n";
 $mensaje.="Tu Email es: ".$email_usuario."\r\n";
 $mensaje.="Consulta: ".$consulta_usuario."\r\n";
 
-$remitente="From: algo@jonylif.com.ar";
+$remitente="From: info@powersis.com.ar";
 
 mail($destino, $asunto, $mensaje, $remitente);
 
