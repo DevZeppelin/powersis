@@ -174,7 +174,7 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"] {
 /*----------------------------------------COMIENZA------------------------------------*/
 
 header {
-    margin-bottom: -100px;
+    margin-bottom: -120px;
 }
 
 body{
@@ -321,7 +321,7 @@ h3 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 55px;
-    padding-top: 38px;
+    padding-top: 0px;
    margin-bottom: 0px;
 }
 
