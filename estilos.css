@@ -369,7 +369,7 @@ h3 {
 }
 
 
-.contenedor-servicios .dos {
+/*.contenedor-servicios .dos {
 
     display: flex;
     flex-wrap: wrap;
@@ -377,7 +377,7 @@ h3 {
     padding: 20px 20px;
     padding-top: 40px;
 
-}
+}*/
 
 .servicio {
 
@@ -458,10 +458,39 @@ textarea {
     color: rgb(54, 54, 54);
 
 }
+
+/*-------------------------CURSOS----------------------------------------------*/
+
+#blog h4 {
+
+    font-size: 22px;
+    text-align: center;
+    margin: 0; 
+    padding: 20px;
+    margin-top: 100px;
+    color: white;
+}
+
+.contenedor-servicios .rojo {
+
+    background: linear-gradient(to top, rgb(43, 125, 231), rgb(19, 84, 224));
+    box-shadow: 0 12px 20px 0 rgb(60, 112, 255);
+}
+
+.servicio:hover {
+    
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px 10px rgb(0, 80, 73);
+
+}
+
+
+
 /*...............................SECCION QUE ESPERAS....................................*/
 
 #que-esperas{
     background: linear-gradient(rgb(69, 128, 255), rgb(16, 79, 206));
+ 
     text-align: center;
     /*aqui le pongo 50px de espacio arriba y abajo. 0 a los costados*/
     padding: 50px 0;
@@ -691,7 +720,7 @@ textarea {
    
         .container-all img {
             
-            width: 736px;
+            width: 800px;
             max-width: 6000px;
             height: 650px;
             
@@ -780,9 +809,14 @@ textarea {
         
     }
 
-    #contratarnos img {
+    #contratarnos .computadoras {
         width: 100%;
         height: 250px;
+    }
+
+    #contratarnos .mapa {
+        width: 90%;
+        height: 400px;
     }
 
     #contratarnos .texto {
@@ -802,6 +836,12 @@ textarea {
     }
 
     #servicios .servicio {
+
+        width: 81%;
+        padding-bottom: 60px;
+    }
+
+    #blog .servicio {
 
         width: 81%;
         padding-bottom: 60px;
@@ -948,17 +988,50 @@ textarea {
 
     .contenedor-servicios {
 
-        width: 500px;
-     
-        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: rgb(0, 0, 0);
+        font-weight: normal;
+        
     }
 
     .contenedor-publicaciones {
 
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
 
+    #servicios .servicio {
+
+        width: 40%;
+        padding-bottom: 60px;
+    }
+
+    #blog .servicio {
+
+        width: 40%;
+        padding-bottom: 60px;
+    }
+
+    #contratarnos .mapa {
+        width: 50%;
+    }
+
+    #contratarnos .computadoras {
+        width: 70%;
+    }
+
+    #servicios .imagen-mini {
+        width: 100%;
+        height: 100px;
+    }
+
+    #blog .imagen-mini {
+        width: 100%;
+        height: 100px;
+    }
 
 
   }
