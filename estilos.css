@@ -610,9 +610,9 @@ textarea {
 
     .contenedor {
         max-width: 1280px;
-        width: 86%;
+        width: 80%;
         margin-left: 15px;
-        margin-right: 20px;
+        
     }
 
     .menu-icon {
@@ -622,6 +622,8 @@ textarea {
         width: 40x;
         height: 40px;
         padding: 20px 0px;
+        padding-left: 20px;
+       
         
     }
    
