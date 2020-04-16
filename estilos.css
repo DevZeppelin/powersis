@@ -26,10 +26,33 @@ body{
     
 }
 
+/*-----------------------------QUIENES SOMOS--------------------*/
+
+.menu-somos {
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgb(20, 24, 48);
+    z-index: 100;
+ }
+ 
+ .menu-somos a {
+     color :#fff;
+ }
+ 
+ #somos {
+     padding: 100px 20px;
+     text-align: justify;
+ }
+ 
+ 
+
 #somos h3{
     padding-top: 120px;
+    padding-bottom: 30px;
 }
-
+/*------------------------------------------------------*/
 
 .logo img {
     width: 220px;
@@ -193,6 +216,7 @@ h3 {
 #contratarnos img {
     padding-top: 46px;
     padding-right: 30px;
+    padding-left: 30px;
 }
 
 
@@ -657,8 +681,9 @@ textarea {
     }
 
     #contratarnos .mapa {
-        width: 90%;
+        width: 95%;
         height: 400px;
+        padding-left: 10px;
     }
 
     #contratarnos .texto {
@@ -873,30 +898,7 @@ textarea {
     }
 
 
- 
-
-
-/*-----------------------------QUIENES SOMOS--------------------*/
-
-.menu-somos {
-
-   position: fixed;
-   width: 100%;
-   top: 0;
-   background: rgb(20, 24, 48);
-   z-index: 100;
-}
-
-.menu-somos a {
-    color :#fff;
-}
-
-#somos {
-    padding: 100px 20px;
-    text-align: justify;
-}
-
-}
+ }
 
 @media (min-width: 1600px) and (max-width: 4000px) {
    
