@@ -33,12 +33,23 @@
 
               
                 <img class="menu-icon" src="imagenes/rayitas.png"></img>
-                <nav>
+                <nav id="header-nav">
                     <ul class="lista-menu">
                   
                         
                         <li><a href="#contratarnos">¿Por qué contratarnos?</a></li>
-                        <li><a href="#servicios">Servicios</a></li>                        
+                        <li>
+                            
+                            <a>Soluciones</a>
+                            <ul class="soluciones-menu">   
+                                <li><a href="#servicios">Infraestructura IT</a></li>
+                                <li><a href="contact-center.html">Contact Center</a></li>
+                                <li><a href="cart-digital.html">Cartelería Digital</a></li>
+                                <li><a href="trans-digital.html">Transformación Digital</a></li>
+                            </ul>
+                            
+                                                         
+                        </li>                        
                         <li><a href="#blog">Cursos</a></li>
                         <li><a href="#contacto-top">Contacto</a></li>
                         <li><a href="https://translate.google.com.ar/translate?hl=es&sl=es&tl=en&u=http%3A%2F%2Fdevzeppelin.github.io%2Fpowersis">ENG</a></li>
@@ -60,16 +71,20 @@
                 <h1>Somos Tecnología</h1>   
             </li>
             <li>
-                <img src="img/2.jpg">
-                <h1>Transformación Digital</h1>   
+                <a href="trans-digital.html"><img src="img/2.jpg"></a>
+                <a href="trans-digital.html"><h1>Transformación Digital</h1></a>   
             </li>
             <li>
-                <img src="img/3.jpg">
-                <h1>Infraestructura</h1>   
+                <a href="#servicios"><img src="img/3.jpg"></a>
+                <a href="#servicios"><h1>Infraestructura IT</h1></a>   
             </li>
             <li>
-                <img src="img/4.jpg">
-                <h1>Contact Center</h1>   
+                <a href="contact-center.html"><img src="img/4.jpg"></a>
+                <a href="contact-center.html"><h1>Contact Center</h1></a>
+            </li>
+            <li>
+                <a href="cart-digital.html"><img src="img/5.jpg"></a>
+                <a href="cart-digital.html"><h1>Cartelería Digital</h1></a>  
             </li>
         </ul>
 
@@ -117,7 +132,7 @@
                     <h3 class="somospowersis">Área de soporte</h3>
                 <div class="contenedor-contratarnos">
                     <div>
-                        <img src="imagenes/mapa.jpg"  class="mapa" width="330px" height="500px">
+                        <img src="imagenes/mapa.jpg"  class="mapa" width="500px" height="500px">
                     </div>
                     <div class="texto">
                         
@@ -148,7 +163,7 @@
        
         <section id="servicios">
             <div class="contenedor">
-            <h3>Servicios</h3>
+            <h3></h3>
         
             <h6>Infraestructura IT</h6>
                 <div class="contenedor-servicios">
@@ -421,7 +436,7 @@
                 $(".menu a").css({"color":"#fff"});
                 $(".logo").css({"color":"#fff"});
                 $(".menu").css({"z-index":"100"});
-
+                $(".soluciones-menu a").css({"color":"red"});
 
             }   else {
                
@@ -430,7 +445,7 @@
                 $(".menu").css({"box-shadow":"0 0 0"});
                 $(".logo").css({"color":"#fff"});
                 $(".menu a").css({"color":"#fff"});
-
+                $(".soluciones-menu a").css({"color":"red"});
             }
 
 
@@ -439,13 +454,14 @@
 
         $('.menu-icon').click(function(){
             
-            $('header nav').slideToggle(); 
+            $('#header-nav').slideToggle(); 
             $('.menu a').click(function(){
-            $('header nav').slideUp();
+            $('#header-nav').slideUp();
             })
 
         
         })
+
     })
 
     </script>
