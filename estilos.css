@@ -438,6 +438,7 @@ textarea {
     padding: 50px 0;
     margin-top: 40px;
     
+    
     }
 
     
@@ -448,6 +449,41 @@ textarea {
     /*para darle estilo al boton vuelvo al que configure mas arriba e incluyo este nuevo ;)*/
 }
 
+
+
+/*-------------------------------CIFRAS------------------------------*/
+
+#cifras h3 {
+    padding-top: 80px;
+}
+
+.texto-cifra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;    
+    
+}
+
+.div-cifra {
+    padding: 50px 50px;
+    
+  
+}
+
+#cifras .cifra {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(41, 43, 49);
+    text-shadow: rgb(133, 2, 2);
+}
+
+#cifras .texto {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+}
 
    /*.........................FOOTER..................*/
 
@@ -654,6 +690,13 @@ textarea {
   
    @media (max-width: 800px) {
 
+
+    #paginas img {
+
+        height: 130px;
+        width: 230px;
+        padding: 0;
+    }
 
     /*--------------SLIDE----------------*/
 
