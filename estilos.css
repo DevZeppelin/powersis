@@ -41,17 +41,41 @@ body{
      color :#fff;
  }
  
- #somos {
+ #paginas {
      padding: 100px 20px;
      text-align: justify;
  }
  
  
 
-#somos h3{
+#paginas h3{
     padding-top: 120px;
     padding-bottom: 30px;
 }
+
+#paginas h4 {
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#paginas img {
+    padding: 40px 40px;
+    display: block;
+    margin: auto;
+    
+}
+
+#paginas li {
+    padding-bottom: 30px;
+}
+
+#paginas h5 {
+    font-size: 24px;
+    text-align: center;
+    color: rgb(180, 0, 0);
+}
+
 /*------------------------------------------------------*/
 
 .logo img {
@@ -92,6 +116,10 @@ header .contenedor{
     font-size: 16px;
 
        
+}
+
+.soluciones-menu a{
+    color: rgb(180, 0, 0);
 }
 
 #header-nav ul {
@@ -689,7 +717,7 @@ textarea {
     }
 
     #header-nav ul li ul {
-        color: rgb(255, 0, 0); 
+        color: rgb(180, 0, 0); 
         display:flex;
         position:relative;
         flex-direction: column;
@@ -700,7 +728,7 @@ textarea {
        }
 
     #header-nav ul li ul a {
-        color: red;
+        color: rgb(180, 0, 0);
         font-size: 15px;
         }
 
