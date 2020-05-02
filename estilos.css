@@ -787,7 +787,7 @@ textarea {
         top: 83px;
         left: 0;
         height: 390px;
-        background: rgb(20, 24, 48);
+        background: #282c37;
         width: 100%;
         display: none;
     }
@@ -810,7 +810,7 @@ textarea {
         position:relative;
         flex-direction: column;
         display: flex;
-        background:rgb(20, 24, 48);
+        background:#282c37;
         font-size: 15px;
         text-align: -webkit-center;
                
