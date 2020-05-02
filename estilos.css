@@ -256,7 +256,7 @@ h2 {
 
     font-size: 14px;
     color: #fff;
-    background: #2b90d9;
+    background: #282c37;
     padding: 14px 24px;
     text-align: center;
     width: 128px;
@@ -503,7 +503,7 @@ textarea {
 #cifras .cifra {
     font-size: 30px;
     font-weight: bolder;
-    color: rgb(41, 43, 49);
+    color: #2b90d9;
     text-shadow: #2b90d9;
 }
 
