@@ -38,9 +38,7 @@
                   
                         
                         <li><a href="#contratarnos">¿Por qué contratarnos?</a></li>
-                        <li>
-                            
-                            <a>Soluciones</a>
+                        <li><p id="soluciones-a">Soluciones</p>
                             <ul class="soluciones-menu">   
                                 <li><a href="#servicios">Infraestructura IT</a></li>
                                 <li><a href="contact-center.html">Contact Center</a></li>
@@ -192,9 +190,9 @@
        
         <section id="servicios">
             <div class="contenedor">
-            <h3></h3>
-        
-            <h6>Infraestructura IT</h6>
+                    
+            <h3>Infraestructura IT</h3>
+
                 <div class="contenedor-servicios">
 
                     <div class="servicio celeste"><a href="trans-digital.html">
@@ -498,7 +496,7 @@
                 $(".menu a").css({"color":"#fff"});
                
                 $(".menu").css({"z-index":"100"});
-                $(".soluciones-menu a").css({"color":"red"});
+                $(".soluciones-menu a").css({"color":"white"});
 
             }   else {
                
@@ -507,7 +505,7 @@
                 $(".menu").css({"box-shadow":"0 0 0"});
                 
                 $(".menu a").css({"color":"#fff"});
-                $(".soluciones-menu a").css({"color":"red"});
+                $(".soluciones-menu a").css({"color":"white"});
             }
 
 
@@ -517,9 +515,16 @@
         $('.menu-icon').click(function(){
             
             $('#header-nav').slideToggle(); 
+
+            $('#soluciones-a').click(function(){
+            $('.soluciones-menu').slideDown(); 
+            })
+
             $('.menu a').click(function(){
             $('#header-nav').slideUp();
             })
+
+
 
         
         })
