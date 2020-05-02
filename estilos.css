@@ -1,4 +1,16 @@
+/*
+paleta de colores 
 
+#282c37
+#9baec8
+#d9e1e8
+#2b90d9
+
+#2b90d9
+
+rgb(0, 1, 41)
+
+*/
 
 #slides h1 {
     position: absolute;
@@ -21,8 +33,9 @@ header {
 body{
     margin: 0;
     font-family: 'Cabin', sans-serif;
-    
+    background: #d9e1e8;
     font-size: 20px;
+    
     
 }
 
@@ -33,7 +46,7 @@ body{
     position: fixed;
     width: 100%;
     top: 0;
-    background: rgb(20, 24, 48);
+    background: #282c37;
     z-index: 100;
  }
  
@@ -84,8 +97,8 @@ body{
 }
 
 main {
-    background: rgb(255, 255, 255);
-    color: rgb(49, 49, 49);
+    
+    color: rgb#282c37;
 }
 
 header .contenedor{
@@ -149,7 +162,7 @@ header .contenedor{
     position:absolute;
     top:66%;
     left: auto;
-    background:rgb(20, 24, 48);
+    background:#282c37;
     padding: 0;
     border-radius: 0 0 10% 10%;
     font-size: 16px;
@@ -207,7 +220,7 @@ display: flex;
 h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 80px;
-    color: #ffffff;
+    color: #d9e1e8;
     text-align: right;
     padding-right: 30px;
     margin: 0px;
@@ -220,7 +233,7 @@ h1 {
 h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 28px;
-    color: #ffffff;
+    color: #d9e1e8;
     text-align: right;
     padding-left: 45%;
     
@@ -243,7 +256,7 @@ h2 {
 
     font-size: 14px;
     color: #fff;
-    background: #061b42;
+    background: #2b90d9;
     padding: 14px 24px;
     text-align: center;
     width: 128px;
@@ -263,6 +276,7 @@ h3 {
     font-size: 55px;
     padding-top: 0px;
    margin-bottom: 0px;
+   color: #282c37;
 }
 
 
@@ -308,13 +322,13 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    color: rgb(0, 1, 53);
+    color: #282c37;
     font-weight: normal;
     
 }
 
 .contenedor-servicios a {
-    color: rgb(0, 1, 41);
+    color: #282c37;
     
 }
 
@@ -350,7 +364,7 @@ h3 {
     margin: 0; 
     padding: 20px;
     margin-top: 90px;
-    color: rgb(0, 2, 65);   
+    color: #d9e1e8;   
 }
 
 #servicios h3 {
@@ -366,14 +380,14 @@ h3 {
 .servicio p {
 
     font-size: 18px;
-    color: rgb(0, 2, 65);    
+    color: #9baec8;    
 
 }
 
 .contenedor-servicios .celeste {
 
-    background: linear-gradient(to top, rgb(255, 255, 255), rgb(117, 200, 255));
-    box-shadow: 0 12px 20px 0 rgb(28, 74, 133);
+    background: linear-gradient(to top, #282c37, #2b90d9);
+    box-shadow: 0 12px 20px 0 #9baec8;
 }
 
 
@@ -396,7 +410,7 @@ h3 {
 .servicio:hover {
     
     transform: scale(1.05);
-    box-shadow: 0 5px 10px 10px rgb(20, 24, 48);
+    box-shadow: 0 5px 10px 10px #282c37;
 
 }
 
@@ -429,14 +443,14 @@ textarea {
 
 .contenedor-servicios .rojo {
 
-    background: linear-gradient(to top, rgb(43, 125, 231), rgb(19, 84, 224));
-    box-shadow: 0 12px 20px 0 rgb(60, 112, 255);
+    background: linear-gradient(to top, #282c37, #2b90d9 );
+    box-shadow: 0 12px 20px 0 #2b90d9;
 }
 
 .servicio:hover {
     
     transform: scale(1.05);
-    box-shadow: 0 5px 10px 10px rgb(0, 80, 73);
+    box-shadow: 0 5px 10px 10px #2b90d9;
 
 }
 
@@ -445,7 +459,7 @@ textarea {
 /*...............................SECCION QUE ESPERAS....................................*/
 
 #que-esperas{
-    background: linear-gradient(rgb(69, 128, 255), rgb(16, 79, 206));
+    background: linear-gradient(#282c37, #2b90d9);
  
     text-align: center;
     /*aqui le pongo 50px de espacio arriba y abajo. 0 a los costados*/
@@ -490,13 +504,13 @@ textarea {
     font-size: 30px;
     font-weight: bolder;
     color: rgb(41, 43, 49);
-    text-shadow: rgb(133, 2, 2);
+    text-shadow: #2b90d9;
 }
 
 #cifras .texto {
     font-size: 24px;
     font-weight: bold;
-    color: rgb(2, 2, 2);
+    color: #282c37;
 }
 
    /*.........................FOOTER..................*/
@@ -581,14 +595,14 @@ textarea {
 
 #contacto .contenedor-contactanos {
     width: 50%;
-    background: linear-gradient(to top, rgb(63, 185, 185), rgb(196, 195, 195));
+    background: linear-gradient(to top, #2b90d9, #9baec8);
     padding-bottom: 30px;
     
 }
 
 #contacto .contenedor-escribinos {
     width: 50%;
-    background: linear-gradient(to top, rgb(19, 96, 168), rgb(41, 43, 49));
+    background: linear-gradient(to top,  #282c37, #2b90d9);
     padding-bottom: 30px;
     
 }
@@ -622,7 +636,7 @@ textarea {
  } 
 
  textarea {
-     padding: 18px;
+     padding: 22px;
      border: 0;
      border-bottom: 2px solid #5cb8ff;
      font-size: 17px;
