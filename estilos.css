@@ -719,6 +719,10 @@ textarea {
   
    @media (max-width: 800px) {
 
+    textarea {
+        width: 71%;
+    }
+
     #header-nav .soluciones-menu {
         display: none;
     
