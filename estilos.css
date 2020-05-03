@@ -16,7 +16,7 @@ rgb(0, 1, 41)
     position: absolute;
     top: 40%;
     right: 60px;
-    color: #fff;
+    color: #d9e1e8;
     text-shadow: 4px 4px 10px black; 
     
 }
@@ -51,7 +51,7 @@ body{
  }
  
  .menu-somos a {
-     color :#fff;
+     color :#d9e1e8;
  }
  
  #paginas {
@@ -126,7 +126,7 @@ header .contenedor{
 }
 
 .lista-menu a {
-    color: #fff;
+    color: #d9e1e8;
     font-size: 16px;
        
 }
@@ -137,12 +137,12 @@ header .contenedor{
  }
 
 .soluciones-menu a{
-    color: rgb(255, 255, 255);
+    color: #d9e1e8;
 }
 
 #header-nav ul {
     display: flex;
-    color: white;
+    color: #d9e1e8;
     text-decoration: solid;  
 }
 
@@ -161,7 +161,7 @@ header .contenedor{
 #header-nav ul ul {
     display:none;
     position:absolute;
-    top:66%;
+    top:75%;
     left: auto;
     background:#282c37;
     padding: 0;
@@ -256,7 +256,7 @@ h2 {
 #contratarnos a, #contacto input[type="submit"], #que-esperas a {
 
     font-size: 14px;
-    color: #fff;
+    color: #d9e1e8;
     background: #282c37;
     padding: 14px 24px;
     text-align: center;
@@ -420,12 +420,12 @@ h3 {
 
 input {
 
-    background-color: rgb(255, 255, 255);
+    background-color: #d9e1e8;
     color: rgb(54, 54, 54);
 }
 
 textarea {
-    background-color: rgb(255, 255, 255);
+    background-color: #d9e1e8;
     color: rgb(54, 54, 54);
 
 }
@@ -439,7 +439,7 @@ textarea {
     margin: 0; 
     padding: 20px;
     margin-top: 100px;
-    color: white;
+    color: #d9e1e8;
 }
 
 .contenedor-servicios .rojo {
@@ -474,7 +474,7 @@ textarea {
 #que-esperas h4{
     font-weight: lighter;
     font-size: 20px;
-    color: #fff;
+    color: #d9e1e8;
     /*para darle estilo al boton vuelvo al que configure mas arriba e incluyo este nuevo ;)*/
 }
 
@@ -544,7 +544,7 @@ textarea {
 
    footer .parrafo-footer {
        font-size: 16px;
-       color: rgb(255, 255, 255);
+       color: #d9e1e8;
        text-align: left;
         padding-left: 10px;
    }
@@ -573,14 +573,14 @@ textarea {
 
 .contenedor-escribinos h4 {
     text-align: center;
-    color: #fff;
+    color: #d9e1e8;
     text-shadow: 2px 2px 2px black; 
 
 }
 
 .contenedor-escribinos h5 {
     text-align: center;
-    color: #fff;
+    color: #d9e1e8;
     text-shadow: 1px 1px 1px black; 
     font-weight: normal ;
 }
@@ -754,7 +754,7 @@ textarea {
             position: absolute;
             top: 20%;
             right: -11px;
-            color: #fff;
+            color: #d9e1e8;
             text-shadow: 1px 1px 2px black;
             font-size: 40px;
         }
@@ -809,7 +809,7 @@ textarea {
     }
 
     #header-nav ul li ul {
-        color: rgb(255, 255, 255); 
+        color: #d9e1e8; 
         /*display:flex;*/
         
         position:relative;
@@ -823,7 +823,7 @@ textarea {
 
        
     #header-nav ul li ul a {
-        color: rgb(255, 255, 255);
+        color: #d9e1e8;
         font-size: 15px;
         }
 
@@ -838,7 +838,7 @@ textarea {
 
     h2 {
         font-size: 24px;
-        color: white;
+        color: #d9e1e8;
     }
 
     h3 {
@@ -953,7 +953,7 @@ textarea {
     }
 
     .lista-menu li a {
-        color: white;
+        color: #d9e1e8;
     }
 
     .contacto-info {
