@@ -35,6 +35,7 @@ body{
     font-family: 'Cabin', sans-serif;
     background: #d9e1e8;
     font-size: 20px;
+    color: #282c37;
     
     
 }
@@ -534,7 +535,7 @@ textarea {
    }
 
    footer .parrafo {
-       color: rgb(0, 0, 0);
+       color: #282c37;
        font-size: 16px;
        margin-top: 10px;
        
@@ -589,7 +590,7 @@ textarea {
 
 .contenedor-contactanos h4 {
     text-align: center;
-    color: rgb(2, 2, 2);
+    color: #282c37;
     text-shadow: 2px 2px 2px rgb(177, 177, 177);
     }
 
@@ -1044,7 +1045,7 @@ textarea {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        color: rgb(0, 0, 0);
+        color: #282c37;
         font-weight: normal;
         
     }
