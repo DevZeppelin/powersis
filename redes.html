@@ -33,10 +33,17 @@
                 <img class="menu-icon" src="imagenes/rayitas.png"></img>
                 <nav id="header-nav">
                     <ul class="lista-menu">
-                  
-                        
-                        <li><a href="index.html">Volver a página principal</a></li>   
-                        <li><a href="index.html#servicios">Soluciones</a></li>                        
+                        <li><a href="index.html">Volver a página principal</a></li>     
+                        <li><p id="soluciones-a">Soluciones</p>
+                            <ul class="soluciones-menu">   
+                                <li><a href="index.html#servicios">Infraestructura IT</a></li>
+                                <li><a href="contact-center.html">Contact Center</a></li>
+                                <li><a href="carteleria-digital.html">Cartelería Digital</a></li>
+                                <li><a href="trans-digital.html">Transformación Digital</a></li>
+                            </ul>
+                            
+                                                         
+                        </li>                                  
                         <li><a href="#contacto">Contacto</a></li>
                        
                        
@@ -173,9 +180,10 @@
         
                     <div class="contacto-info">
                      
-                        <div class="mail"><img src="imagenes/mail-icon.png" alt=""><a class="mail" href="mailto:info@powersis.com.ar">info@powersis.com.ar</a></div>
-                        <div class="whatsapp"><img src="imagenes/whatsapp-icon.png" alt="">(+549 260) 4539098</div>
-        
+                        <div class="mail"><img src="imagenes/icon-mail.png" alt=""><a class="mail" href="mailto:info@powersis.com.ar">info@powersis.com.ar</a></div>
+                <div class="contact"><img src="imagenes/icon-contact.png" alt="">0810 222 2080</div>
+                <div class="whatsapp"><img src="imagenes/icon-whatsapp.png" alt="">(+549 260) 4539098</div>
+                <div class="llamada"><img src="imagenes/icon-llamada.png" alt="">(+54 11) 70780257</div>
                     </div>
                
         
@@ -226,12 +234,19 @@
 
           
 
-        $('.menu-icon').click(function(){
+            $('.menu-icon').click(function(){
             
-            $('header nav').slideToggle(); 
-            $('.menu a').click(function(){
-            $('header nav').slideUp();
+            $('#header-nav').slideToggle(); 
+
+            $('#soluciones-a').click(function(){
+            $('.soluciones-menu').slideDown(); 
             })
+
+            $('.menu a').click(function(){
+            $('#header-nav').slideUp();
+            })
+
+
 
         
         })

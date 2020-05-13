@@ -5,9 +5,7 @@ paleta de colores
 #9baec8
 #d9e1e8
 #2b90d9
-
 #2b90d9
-
 rgb(0, 1, 41)
 
 */
@@ -18,6 +16,18 @@ rgb(0, 1, 41)
     right: 70px;
     color: #fff;
     text-shadow: 2px 2px 6px black; 
+    
+}
+
+#slides h2 {
+    font-size: 50px;
+    position: absolute;
+    bottom: -2%;
+    left: -36%;
+    color: #282c37;
+    text-shadow: 2px 2px 6px black; 
+    
+    
     
 }
 
@@ -49,6 +59,7 @@ body{
     top: 0;
     background: #282c37;
     z-index: 100;
+    height: 80px;
  }
  
  .menu-somos a {
@@ -629,12 +640,14 @@ textarea {
  }
 
  input[type="text"], input[type="email"] {
-     width: 49%;
+     width: 44%;
      margin-bottom: 15px;
      padding: 18px 0;
      border: 0;
      border-bottom: 2px solid #5cb8ff;
      font-size: 17px;
+     font-family: inherit;
+     padding-left: 22px;
  } 
 
  textarea {
@@ -645,6 +658,7 @@ textarea {
      margin-bottom: 40px;
      width: 93%;
      height: 180px;
+     font-family: inherit;
  }
 
 
@@ -753,11 +767,21 @@ textarea {
         
         #slides h1 {
             position: absolute;
-            top: 20%;
+            top: 15%;
             right: -11px;
             color: #d9e1e8;
             text-shadow: 1px 1px 2px black;
             font-size: 40px;
+        }
+
+        #slides h2 {
+            position: absolute;
+            top: 25%;
+            right: 10px;
+            color: #282c37;
+            text-shadow: 1px 1px 2px black;
+            font-size: 30px;
+            padding: 0;
         }
         
         
@@ -768,8 +792,8 @@ textarea {
 
     .contenedor {
         max-width: 1280px;
-        width: 80%;
-        margin-left: 15px;
+        width: 90%;
+        margin-left: 10px;
         
     }
 
@@ -790,9 +814,9 @@ textarea {
    
     #header-nav {
         position: absolute;
-        top: 83px;
+        top: 80px;
         left: 0;
-        height: 354px;
+        height: 378px;
         background: #282c37;
         width: 100%;
         display: none;
