@@ -1,0 +1,1195 @@
+/*
+paleta de colores 
+
+#282c37
+#9baec8
+#d9e1e8
+#2b90d9
+#2b90d9
+rgb(0, 1, 41)
+#ca0e0e
+
+rgb(217, 225, 232)
+rgb(155,174,200)
+
+*/
+
+#slides h1 {
+    position: absolute;
+    top: 20%;
+    right: 70px;
+    color: #fff;
+    text-shadow: 2px 2px 6px black; 
+    
+}
+
+#slides h2 {
+    font-size: 50px;
+    position: absolute;
+    bottom: -2%;
+    left: -36%;
+    color: #ca0e0e;
+    text-shadow: 2px 2px 6px black; 
+    
+    
+    
+}
+
+
+
+
+/*----------------------------------------COMIENZA------------------------------------*/
+
+header {
+    margin-bottom: -120px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+    background: #d9e1e8;
+    font-size: 20px;
+    color: #282c37;
+    
+    
+}
+
+/*-----------------------------QUIENES SOMOS--------------------*/
+
+.menu-somos {
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #282c37;
+    z-index: 100;
+    height: 80px;
+ }
+ 
+ .menu-somos a {
+     color :#d9e1e8;
+ }
+ 
+ #paginas {
+     padding: 100px 20px;
+     text-align: justify;
+ }
+ 
+ 
+
+#paginas h3{
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+#paginas h4 {
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#paginas img {
+    padding: 40px 40px;
+    display: block;
+    margin: auto;
+    
+}
+
+#paginas li {
+    padding-bottom: 30px;
+}
+
+#paginas h5 {
+    font-size: 24px;
+    text-align: center;
+    color: rgb(180, 0, 0);
+}
+
+/*------------------------------------------------------*/
+
+.logo img {
+    width: 220px;
+    height: 40px;
+}
+
+main {
+    
+    color: rgb#282c37;
+}
+
+header .contenedor{
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.menu {
+    
+    background: transparent;
+    position: relative;
+    height: 80px;
+    margin-bottom: 40px;
+    z-index: 100;
+    text-shadow: 1px 1px 2px black; 
+}
+
+.lista-menu img {
+    width: 40px;
+    height: 30px;
+    
+}
+
+.lista-menu a {
+    color: #d9e1e8;
+    font-size: 16px;
+       
+}
+
+#header-nav p {
+    font-size: 16px;
+    margin-top: 5px;
+ }
+
+.soluciones-menu a{
+    color: #d9e1e8;
+}
+
+#header-nav ul {
+    display: flex;
+    color: #d9e1e8;
+    text-decoration: solid;  
+}
+
+
+
+#header-nav ul li {
+    list-style: none;
+    margin: 15px;
+    text-align: center;
+}
+
+
+
+/*------------------- menu desplegable SOLUCIONES-----------------------------*/
+
+#header-nav ul ul {
+    display:none;
+    position:absolute;
+    top:75%;
+    left: auto;
+    background:#282c37;
+    padding: 0;
+    border-radius: 0 0 10% 10%;
+    font-size: 16px;
+    text-align: center;
+   }
+   
+   /* items del menu desplegable */
+   
+   #header-nav ul ul li {
+    float:none;
+    width:220px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #header-nav ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+
+
+   /* items del menu desplegable al pasar el ratón */
+   
+   #header-nav ul li:hover > ul {
+    display:block;
+    
+   }
+
+   
+
+/*-----------------------------------------------------*/
+
+a {
+    text-decoration: none;
+}
+
+.contenedor {
+    max-width: 2300px;
+    width: 90%;
+    margin: auto;
+}
+
+#contenedor-titulo-flex{
+display: flex;
+    justify-content: center;
+
+        margin: 8vh 0;
+        max-width: 1500px;
+        width: 100%;
+}
+
+
+
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    color: #d9e1e8;
+    text-align: right;
+    padding-right: 30px;
+    margin: 0px;
+    
+    margin-top: 32px;
+    
+    
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    color: #d9e1e8;
+    text-align: right;
+    padding-left: 45%;
+    
+    padding-right: 30px;
+    
+    margin-top: 20px;
+    
+    
+    
+}
+
+.contenedor-titulo {
+    text-align: center;
+}
+
+
+/*-------------------BOTONES---------------------*/
+
+#contratarnos a, #contacto input[type="submit"], #que-esperas a {
+
+    font-size: 14px;
+    color: #d9e1e8;
+    background: #282c37;
+    padding: 14px 24px;
+    text-align: center;
+    width: 128px;
+    border-radius: 6px;
+    display: inline-block;
+   
+}
+
+
+
+/*.........................SECCION DE "CONTRATARNOS"..................*/
+
+h3 {
+
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 0px;
+   margin-bottom: 0px;
+   color: #282c37;
+}
+
+
+#contratarnos .somospowersis{
+    font-family: 'Raleway', sans-serif;
+    }
+
+#contratarnos .contenedor-contratarnos {
+
+    display: flex;   
+    
+    justify-content: space-between ; 
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+    
+}
+
+#contratarnos .texto {
+    
+    width: 63%;
+    text-align: justify;
+    padding: 25px 25px;
+    
+}
+
+#contratarnos img {
+    
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto;
+    
+}
+
+
+
+/*.........................SECCION DE "SERVICIOS"..................*/
+
+
+
+
+.contenedor-servicios {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #282c37;
+    font-weight: normal;
+    
+}
+
+.contenedor-servicios a {
+    color: #282c37;
+    
+}
+
+
+/*.contenedor-servicios .dos {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+    padding-top: 40px;
+
+}*/
+
+.servicio {
+
+    width: 28%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+   
+    
+    
+}
+
+
+#servicios h4 {
+
+    font-size: 22px;
+    text-align: center;
+    margin: 0; 
+    padding: 20px;
+    margin-top: 90px;
+    color: #d9e1e8;   
+}
+
+#servicios h3 {
+
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-bottom: 60px;
+    margin-top: 10px;
+    
+   
+}
+
+.servicio p {
+
+    font-size: 18px;
+    color: #9baec8;    
+
+}
+
+.contenedor-servicios .celeste {
+
+    background: linear-gradient(to top, #282c37, #2b90d9);
+    box-shadow: 0 12px 20px 0 #9baec8;
+}
+
+
+
+
+.imagen-mini {
+   
+    position: absolute;
+    float: initial;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0 ;
+    height: 90px ;
+    
+
+}
+
+
+.servicio:hover {
+    
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px 10px #282c37;
+
+}
+
+
+
+
+input {
+
+    background-color: #d9e1e8;
+    color: rgb(54, 54, 54);
+}
+
+textarea {
+    background-color: #d9e1e8;
+    color: rgb(54, 54, 54);
+
+}
+
+/*-------------------------CURSOS----------------------------------------------*/
+
+#blog h4 {
+
+    font-size: 22px;
+    text-align: center;
+    margin: 0; 
+    padding: 20px;
+    margin-top: 100px;
+    color: #d9e1e8;
+}
+
+.contenedor-servicios .rojo {
+
+    background: linear-gradient(to top, #282c37, #2b90d9 );
+    box-shadow: 0 12px 20px 0 #2b90d9;
+}
+
+.servicio:hover {
+    
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px 10px #2b90d9;
+
+}
+
+
+
+/*...............................SECCION QUE ESPERAS....................................*/
+
+#que-esperas{
+    background: linear-gradient(#282c37, #2b90d9);
+ 
+    text-align: center;
+    /*aqui le pongo 50px de espacio arriba y abajo. 0 a los costados*/
+    padding: 50px 0;
+    margin-top: 40px;
+    
+    
+    }
+
+    
+#que-esperas h4{
+    font-weight: lighter;
+    font-size: 20px;
+    color: #d9e1e8;
+    /*para darle estilo al boton vuelvo al que configure mas arriba e incluyo este nuevo ;)*/
+}
+
+
+
+/*-------------------------------CIFRAS------------------------------*/
+
+#cifras h3 {
+    padding-top: 80px;
+}
+
+.texto-cifra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;    
+    
+}
+
+.div-cifra {
+    padding: 50px 50px;
+    
+  
+}
+
+#cifras .cifra {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #2b90d9;
+    text-shadow: #2b90d9;
+}
+
+#cifras .texto {
+    font-size: 24px;
+    font-weight: bold;
+    color: #282c37;
+}
+
+   /*.........................FOOTER..................*/
+
+
+   
+
+   footer img {
+    margin: 5px 20px 5px;
+    transform: rotate(0);
+    transition: 0.4s;
+    
+
+   }
+
+   footer img:hover {
+    transform: rotate(360deg);
+    transition: 0.4s;
+
+   }
+
+   footer .parrafo {
+       color: #282c37;
+       font-size: 16px;
+       margin-top: 10px;
+       
+       text-align: left;
+        padding-left: 10px;
+   }
+
+   footer .parrafo-footer {
+       font-size: 16px;
+       color: #d9e1e8;
+       text-align: left;
+        padding-left: 10px;
+   }
+
+   .banderas img {
+       
+    
+       width: 70px;
+       height: 70px;
+       padding-bottom: 20px;
+       padding-top: 15px;
+
+    }
+
+   /*...................................SECCION CONTACTO.....................................*/
+
+
+#contacto .contenedor {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+}
+
+.contenedor-escribinos h4 {
+    text-align: center;
+    color: #d9e1e8;
+    text-shadow: 2px 2px 2px black; 
+
+}
+
+.contenedor-escribinos h5 {
+    text-align: center;
+    color: #d9e1e8;
+    text-shadow: 1px 1px 1px black; 
+    font-weight: normal ;
+}
+
+
+
+.contenedor-contactanos h4 {
+    text-align: center;
+    color: #282c37;
+    text-shadow: 2px 2px 2px rgb(177, 177, 177);
+    }
+
+
+#contacto .contenedor-contactanos {
+    width: 50%;
+    background: linear-gradient(to top, #2b90d9, #9baec8);
+    padding-bottom: 30px;
+    
+}
+
+#contacto .contenedor-escribinos {
+    width: 50%;
+    background: linear-gradient(to top,  #282c37, #2b90d9);
+    padding-bottom: 30px;
+    
+}
+
+
+.contacto-info {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+ .contenedor-escribinos form {
+
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 77%;
+    margin: auto;
+ }
+
+ input[type="text"], input[type="email"] {
+     width: 44%;
+     margin-bottom: 15px;
+     padding: 18px 0;
+     border: 0;
+     border-bottom: 2px solid #5cb8ff;
+     font-size: 17px;
+     font-family: inherit;
+     padding-left: 22px;
+ } 
+
+ textarea {
+     padding: 22px;
+     border: 0;
+     border-bottom: 2px solid #5cb8ff;
+     font-size: 17px;
+     margin-bottom: 40px;
+     width: 93%;
+     height: 180px;
+     font-family: inherit;
+ }
+
+
+ #contacto input[type="submit"] {
+     width: 166px;
+     margin: auto;
+
+ }
+
+  .contacto-info {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+
+  }
+
+  .contacto-info a {
+      color: darkblue;
+  }
+
+  .contacto-info img {
+    width: 28px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+
+
+
+   /*.....................WHATSAPP.............................*/
+
+   #whatsapp {
+
+    position: fixed;
+    top: 80%;
+    right: 1%;
+    z-index: 200;
+   }
+
+   #whatsapp img {
+
+    width: 75px;
+    height: 90px;
+}
+
+
+   /*..............estilo html................*/
+
+   html {
+     
+       scroll-behavior: smooth;
+   }
+
+   
+   #contratarnos, #servicios, #blog {
+
+    padding: 30px 0;
+   }
+
+
+   /*.............................IMPORTANTISIMA PARTE DEL RESPONSIVE DESIGN..........................*/
+
+   
+   
+   
+   .menu-icon {
+     
+    display: none;
+
+   }
+
+   /*----------------------------------FONDOS CLAROS-----------------------------------------------------*/
+
+  .contact-center1 {
+    
+    background: linear-gradient(rgba(155,174,200, 0.9), rgba(155,174,200, .9)), url(img/fondos/contact-center.jpg);
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .carteleria1 {
+    background: linear-gradient(rgba(155,174,200, 0.9), rgba(155,174,200, .9)), url(img/fondos/carteleria1.jpg);
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .energia1 {
+    background: linear-gradient(rgba(155,174,200, 0.9), rgba(155,174,200, .9)), url(img/fondos/energia.png);
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .gerenciamiento1 {
+    background: linear-gradient(rgba(155,174,200, 0.9), rgba(155,174,200, .9)), url(img/fondos/gerenciamiento.jpg);
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .help1 {
+    background: linear-gradient(rgba(155,174,200, 0.9), rgba(155,174,200, .9)), url(img/fondos/help.jpg);
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .micro1 {
+    background: linear-gradient(rgba(155,174,200, 0.9), rgba(155,174,200, .9)), url(img/fondos/micro.jpg);
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .mudanza1 {
+    background: linear-gradient(rgba(155,174,200, 0.9), rgba(155,174,200, .9)), url(img/fondos/mudanza.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+  }
+
+  .trans1 {
+    background: linear-gradient(rgba(155,174,200, 0.9), rgba(155,174,200, .9)), url(img/fondos/trans.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+  }
+
+  .redes1 {
+    background: linear-gradient(rgba(155,174,200, 0.9), rgba(155,174,200, .9)), url(img/fondos/redes.png);
+    height: 100vh;
+    background-size: cover;
+  }
+
+  
+   @media (max-width: 800px) {
+
+    .energia1, .carteleria1, .contact-center1, .redes1, .trans1, .mudanza1, .micro1, .help1, .gerenciamiento1 {
+        background-size: contain;
+    }
+
+    textarea {
+        width: 71%;
+    }
+
+    #header-nav .soluciones-menu {
+        display: none;
+    
+    }
+
+    #paginas h3 {
+        font-size: 32px;
+    }
+
+    
+
+
+
+    #paginas img {
+
+        height: 130px;
+        width: 230px;
+        padding: 0;
+    }
+
+    /*--------------SLIDE----------------*/
+
+   
+                
+        
+        
+        #slides h1 {
+            position: absolute;
+            top: 15%;
+            right: -11px;
+            color: #d9e1e8;
+            text-shadow: 1px 1px 2px black;
+            font-size: 40px;
+        }
+
+        #slides h2 {
+            position: absolute;
+            top: 25%;
+            right: 10px;
+            color: #ca0e0e;
+            text-shadow: 1px 1px 2px black;
+            font-size: 30px;
+            padding: 0;
+        }
+        
+        
+        
+
+        /*------------------------------------------------------*/
+
+
+    .contenedor {
+        max-width: 1280px;
+        width: 88%;
+        margin-left: 10px;
+        
+    }
+
+    .menu-icon {
+
+        display: flex;
+        float: right;
+        width: 40x;
+        height: 40px;
+        padding: 20px 0px;
+        padding-left: 20px;
+        position: fixed;
+        right: 2%;
+        
+       
+        
+    }
+   
+    #header-nav {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        height: 378px;
+        background: #282c37;
+        width: 100%;
+        display: none;
+    }
+
+    
+
+    #header-nav ul {
+        flex-direction: column;
+    }
+
+    #header-nav ul li {
+
+        margin-bottom: 5px;
+    }
+
+    #header-nav ul li ul {
+        color: #d9e1e8; 
+        /*display:flex;*/
+        
+        position:relative;
+        flex-direction: column;
+        display: flex;
+        background:#282c37;
+        font-size: 15px;
+        text-align: -webkit-center;
+               
+       }
+
+       
+    #header-nav ul li ul a {
+        color: #d9e1e8;
+        font-size: 15px;
+        }
+
+
+    header h1 {
+            font-size: 51px;
+            margin-bottom: 25px;
+            padding-bottom: 75px;
+            text-shadow: 1px 1px 2px black; 
+    }
+    
+
+    h2 {
+        font-size: 24px;
+        color: #d9e1e8;
+    }
+
+    h3 {
+        font-size: 45px;
+    }
+
+    .contenedor-titulo {
+        margin: -6vh 0;        
+    }
+
+    .contenedor-titulo h2 {
+        font-size: 30px;
+    }
+
+    #contratarnos .contenedor-contratarnos {
+        
+        flex-direction: column;
+        
+    }
+
+    #contratarnos .computadoras {
+        width: 100%;
+        height: 330px;
+        display: block;
+        justify-content: center;
+       }
+
+    #contratarnos .mapa {
+        width: 100%;
+        height: 300px;
+        padding-left: 10px;
+    }
+
+    #contratarnos .texto {
+        width: 98%;
+        text-align: justify;
+        padding-right: 20px;
+    }
+
+    .contenedor-servicios {
+        flex-direction: column;
+        width: 110%;
+    }
+
+    .dos {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #servicios .servicio {
+
+        width: 81%;
+        padding-bottom: 60px;
+    }
+
+    #blog .servicio {
+
+        width: 81%;
+        padding-bottom: 60px;
+    }
+
+    #servicios .imagen-mini {
+        width: 100%;
+    }
+
+    #servicios .icono {
+        margin-top: 20px;
+    }
+
+    .servicio p {
+        
+        margin-top: 32px;
+    }
+
+  
+    .item ul {
+        padding: 0;
+    }
+
+    #blog .contenedor-publicaciones {
+        flex-direction: column;
+
+    }
+
+    #blog .publicacion {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #contacto form {
+        flex-direction: column;
+        width: 86%;
+    }
+
+    input[type="text"], input[type="email"] {
+        width: 84%;
+        
+    }
+
+    footer img {
+        margin: 16px;
+    }
+
+    footer .banderas {
+        
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        width: 100px;
+        padding-bottom: 40px;
+       
+    }
+
+    .lista-menu li a {
+        color: #d9e1e8;
+    }
+
+    .contacto-info {
+        flex-direction: column;
+    }
+
+    #whatsapp img {
+
+        width: 60px;
+        height: 70px;
+    }
+
+    #contacto .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;             
+        
+    }
+
+    #contacto .contenedor-contactanos {
+        width: 100%;
+        
+       
+    }
+
+    
+
+    #contacto .contenedor-escribinos {
+        width: 100%;
+       
+    }
+}
+
+@media (max-width: 330px) {
+
+    #contratarnos .computadoras {
+        height: 270px;
+        }
+
+    footer .banderas {
+        
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+        width: 70px;
+        padding-bottom: 40px;
+       
+    }
+
+    header h1 {
+        font-size: 32px;
+        margin-bottom: 25px;
+        padding-bottom: 113px;
+        text-shadow: 1px 1px 2px black; 
+    }
+
+    .contenedor-titulo h2 {
+
+        font-size: 25px;
+    }
+
+    #whatsapp img {
+
+        width: 50px;
+        height: 60px;
+    }
+
+    #contratarnos img {
+
+        height: 250px;
+    }
+
+
+
+
+}
+  
+@media (min-width: 600px) and (max-width: 800px) {
+
+    header h1 {
+        margin-bottom: 213px;
+        font-size: 90px;
+    }
+
+    .contenedor-servicios {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: #282c37;
+        font-weight: normal;
+        
+    }
+
+    .contenedor-publicaciones {
+
+        width: 90%;
+        margin: auto;
+    }
+
+    #servicios .servicio {
+
+        width: 40%;
+        padding-bottom: 60px;
+    }
+
+    #blog .servicio {
+
+        width: 40%;
+        padding-bottom: 60px;
+    }
+
+    #contratarnos .mapa {
+        width: 50%;
+    }
+
+    #contratarnos .computadoras {
+        width: 70%;
+    }
+
+    #servicios .imagen-mini {
+        width: 100%;
+        height: 100px;
+    }
+
+    #blog .imagen-mini {
+        width: 100%;
+        height: 100px;
+    }
+
+    #contratarnos .computadoras {
+        width: 60%;
+    }
+    
+    
+
+ }
+
+@media (min-width: 1600px) and (max-width: 4000px) {
+   
+        .imagen-mini{
+         height: 100px;
+        }
+       
+
+}
+
