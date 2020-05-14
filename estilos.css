@@ -797,6 +797,10 @@ textarea {
   
    @media (max-width: 800px) {
 
+    .energia1, .carteleria1, .contact-center1, .redes1, .trans1, .mudanza1, .micro1, .help1, .gerenciamiento1 {
+        background-size: contain;
+    }
+
     textarea {
         width: 71%;
     }
