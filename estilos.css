@@ -269,7 +269,7 @@ h2 {
 
 /*-------------------BOTONES---------------------*/
 
-#contratarnos a, #contacto input[type="submit"], #que-esperas a {
+#contratarnos a, #contacto input[type="submit"], #que-esperas a, .boton-mensaje {
 
     font-size: 14px;
     color: #d9e1e8;
@@ -282,6 +282,9 @@ h2 {
    
 }
 
+.boton-mensaje {
+    margin-bottom: 250px;
+}
 
 
 /*.........................SECCION DE "CONTRATARNOS"..................*/
